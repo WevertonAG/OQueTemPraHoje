@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+ 
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-image: linear-gradient(to right, #888,#111);
+    justify-content: center;
+    flex-direction: column;
+    color:#a40b02;
+    font-size: 20px;
+    align-content:stretch ;
+    align-items: center;
+    font-family: Oswald;
+    font-size: 27px;
+    -webkit-text-stroke: 4px;
+    text-shadow: 8px 7px 10px #000;
+    letter-spacing: 5px;
+
+}
+.conteudo {
+    position: relative;
+    display: flex;
+    height: 600px;
+    width: 1000px;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-image: linear-gradient(to right, #444, #111);
+    border-radius: 10px;
+    border:solid 0px #111;
+    box-shadow:  10px 10px 10px black;
+}
+.filme,
+.comida,
+.bebidas{
+    position: relative;
+    display: flex;
+    height: 450px;
+    width: 250px;
+    justify-content: space-between;
+    padding: 0;
+    margin: 15px;
+    background-color: #888;
+    border:solid 0px #111;
+    box-shadow:  10px 10px 10px black;
+    border-radius: 10px;
+}
+.images{
+    padding: 3px;
+    margin: 0;
+    height: 450px;
+    width: 250px;
+    box-shadow:  10px 10px 10px black;
+    border-radius: 10px;
+
+}
+
+button{
+    height: 70px;
+    width: 250px;
+    padding:0;
+    margin: 20px;
+    background-color: #a40b02;
+    border-radius: 10px;
+    font-size: 35px;
+    -webkit-text-stroke: 3px;
+    text-shadow: 5px 5px 5px #000;
+    color: #eee;
+    box-shadow:  10px 10px 10px black;
+    border-radius: 10px;
+}
