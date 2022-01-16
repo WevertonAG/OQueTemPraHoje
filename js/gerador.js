@@ -3,5 +3,5 @@ function randomFilme(){
 }
 
 function animar (){
- // aqui vai animar algo    
+ console.log("passei aqui")
 }
