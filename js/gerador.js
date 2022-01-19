@@ -2,6 +2,6 @@ function randomFilme(){
     const numero = getElementByid('button')
 }
 
-function animar (){
+function animar ("id"){
  console.log("passei aqui")
 }
