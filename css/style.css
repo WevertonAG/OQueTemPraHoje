@@ -1,28 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
-*{
-    box-sizing: border-box;
-}
- 
 body{
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
     background-image: linear-gradient(to right, #888,#111);
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
     color:#a40b02;
     font-size: 20px;
-    align-content:stretch ;
     align-items: center;
     font-family: Oswald;
     font-size: 27px;
     -webkit-text-stroke: 4px;
     text-shadow: 8px 7px 10px #000;
     letter-spacing: 5px;
+    overflow: hidden;
 
 }
+header{
+    color: #eee;
+}
 .conteudo {
+    margin: 30px;
     position: relative;
     display: flex;
     height: 600px;
@@ -72,4 +74,11 @@ button{
     color: #eee;
     box-shadow:  10px 10px 10px black;
     border-radius: 10px;
+}
+footer{
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    color: #eee;
+    letter-spacing: 7px;
 }
