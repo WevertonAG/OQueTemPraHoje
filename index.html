@@ -8,27 +8,31 @@
     <title>O Que Tem Pra Hoje?</title>
 </head>
 <body>
-    <h1>O QUE TEM PRA HOJE?</h1>
-   
+    <header class="header"><h1>O QUE TEM PRA HOJE?</h1></header>
+    
     <div class="conteudo">
         <div>
             <div class="filme">
                 <img class="images"src="./images/marvel.png" alt="">
             </div>
-            <button id="filmes">FILMES</button>
+            <button id="filmes" onclick="gerarFilme(id)">FILMES</button>
         </div>
         <div>
             <div class="comida">
                 <img class="images"src="./images/pizza.jpg" alt="">
             </div>
-            <button id="comidas">COMIDAS</button>
+            <button id="comidas" onclick="gerarComida(id)">COMIDAS</button>
         </div>
         <div>
             <div class="bebidas">
                 <img class="images"src="./images/bebidas.jpg" alt="">
             </div>
-            <button id="bebidas">BEBIDAS</button>
+            <button id="bebidas" onclick="gerarBebida(id)">BEBIDAS</button>
         </div>
     </div>
+    <footer>
+        <p>Desenvolvido por Weverton Guimarães</p>
+    </footer>
 </body>
+<script src="./js/gerador.js"></script>
 </html>
