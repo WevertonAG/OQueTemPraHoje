@@ -31,8 +31,8 @@ header{
     margin: 30px;
     position: relative;
     display: flex;
-    height: 600px;
-    width: 1000px;
+    height: 50%;
+    width: 80%;
     justify-content: space-around;
     align-items: flex-end;
     background-image: linear-gradient(to right, #444, #111);
