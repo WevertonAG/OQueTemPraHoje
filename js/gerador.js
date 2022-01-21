@@ -46,19 +46,19 @@ function getRandomIntInclusive(min, max) {
 }
 
 function gerarFilme(id){
-    const filme = filmes[getRandomIntInclusive(0,filmes.length)]
+    const filme = filmes[getRandomIntInclusive(0,filmes.length-1)]
     const movie = document.getElementById('movie')
     movie.innerHTML= filme
 }
 
 function gerarComida(id){
-    const comida = comidas[getRandomIntInclusive(0,comidas.length)]
+    const comida = comidas[getRandomIntInclusive(0,comidas.length-1)]
     const food = document.getElementById('food')
     food.innerHTML= comida
 }
 
 function gerarBebida(id){
-    const bebida = bebidas[getRandomIntInclusive(0,bebidas.length)]
+    const bebida = bebidas[getRandomIntInclusive(0,bebidas.length-1)]
     const drink = document.getElementById('drink')
     drink.innerHTML= bebida
 }
