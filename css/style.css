@@ -44,8 +44,8 @@ header{
 .bebidas{
     position: relative;
     display: flex;
-    height: 450px;
-    width: 250px;
+    height: 70%;
+    width: 30%;
     justify-content: space-between;
     padding: 0;
     margin: 15px;
@@ -54,19 +54,9 @@ header{
     box-shadow:  10px 10px 10px black;
     border-radius: 10px;
 }
-.images{
-    padding: 3px;
-    margin: 0;
-    height: 450px;
-    width: 250px;
-    box-shadow:  10px 10px 10px black;
-    border-radius: 10px;
-
-}
-
 button{
-    height: 70px;
-    width: 250px;
+    height: 20%;
+    width: 30%;
     padding:0;
     margin: 20px;
     background-color: #a40b02;
