@@ -10,18 +10,15 @@ body{
     justify-content: space-evenly;
     flex-direction: column;
     color:#a40b02;
-    font-size: 20px;
     align-items: center;
     font-family: Oswald;
     font-size: 27px;
-    -webkit-text-stroke: 2px;
+    -webkit-text-stroke: 3px;
     text-shadow: 8px 7px 10px #000;
     letter-spacing: 5px;
 
 }
 header{
-    height: 25%;
-    width: 100%;
     color: #eee;
     display: flex;
     justify-content: center;
@@ -30,8 +27,8 @@ header{
     margin: 30px;
     position: relative;
     display: flex;
-    height: 50%;
-    width: 80%;
+    height: 600px;
+    width: 1000px;
     justify-content: space-around;
     align-items: flex-end;
     background-image: linear-gradient(to right, #444, #111);
@@ -44,8 +41,8 @@ header{
 .bebidas{
     position: relative;
     display: flex;
-    height: 70%;
-    width: 30%;
+    height: 450px;
+    width: 250px;
     justify-content: space-between;
     padding: 0;
     margin: 15px;
@@ -55,8 +52,8 @@ header{
     border-radius: 10px;
 }
 button{
-    height: 20%;
-    width: 30%;
+    height: 70px;
+    width: 250px;
     padding:0;
     margin: 20px;
     background-color: #a40b02;
