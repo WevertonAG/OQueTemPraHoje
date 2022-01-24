@@ -40,7 +40,8 @@ const filmes = [
     "Jogos Vorazes A esperança Parte 1",
     "Jogos Vorazes A esperança Final",
     "Como eu era antes de você",
-    "A culpa é das Estrelas"
+    "A culpa é das Estrelas",
+    "Caminhos da Memória"
 ]
 const comidas = [
     "Pizza",
