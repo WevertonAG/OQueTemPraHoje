@@ -10,29 +10,30 @@
 <body>
     <header class="header"><h1>O QUE TEM PRA HOJE?</h1></header>
     
-    <div class="conteudo">
-        <div>
-            <div class="filme">
-                <p id="movie">Click para recomendarmos um bom filme</p>
+    <div class="content">
+        <div class="container">
+            <div class="movie">
+                <h1 id="movie">Click para recomendarmos um bom filme</h1>
             </div>
-            <button id="filmes" onclick="gerarFilme(id)">FILMES</button>
+            <button onclick="gerarFilme(id)">FILMES</button>
         </div>
-        <div>
-            <div class="comida">
-                <p id="food">Click para recomendarmos uma comida</p>
+        <div class="container">
+            <div class="food">
+                <h1 id="food">Click para recomendarmos uma comida</h1>
             </div>
-            <button id="comidas" onclick="gerarComida(id)">COMIDAS</button>
+            <button  onclick="gerarComida(id)">COMIDAS</button>
         </div>
-        <div>
-            <div class="bebidas">
-                <p id="drink">Click para recomendarmos uma bebida</p>
+        <div class="container">
+            <div class="drink">
+                <h1 id="drink">Click para recomendarmos uma bebida</h1>
             </div>
-            <button id="bebidas" onclick="gerarBebida(id)">BEBIDAS</button>
+            <button onclick="gerarBebida(id)">BEBIDAS</button>
         </div>
     </div>
-    <footer>
+    <footer class="footer">
         <p>Desenvolvido por Weverton Guimarães</p>
     </footer>
 </body>
 <script src="./js/gerador.js"></script>
 </html>
+
