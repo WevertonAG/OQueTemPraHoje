@@ -1,87 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@200;300&family=Oswald:wght@200&family=Poppins:wght@500&family=Roboto+Mono&display=swap');
 
+body, html{
+    height: 100%;
+}
 body{
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
-    display: flex;
-    background-image: linear-gradient(to right, #888,#111);
-    justify-content: space-evenly;
-    flex-direction: column;
-    color:#a40b02;
     align-items: center;
-    font-family: Oswald;
-    font-size: 27px;
-    -webkit-text-stroke: 3px;
-    text-shadow: 8px 7px 10px #000;
-    letter-spacing: 5px;
-
+    color: #eee;
+    background-color: #072227;
+    font-family: Anton;
 }
 header{
-    color: #eee;
-    display: flex;
-    justify-content: center;
-}
-.conteudo {
-    margin: 30px;
-    position: relative;
-    display: flex;
-    height: 600px;
-    width: 1000px;
-    justify-content: space-around;
-    align-items: flex-end;
-    background-image: linear-gradient(to right, #444, #111);
-    border-radius: 10px;
-    border:solid 0px #111;
-    box-shadow:  10px 10px 10px black;
-}
-.filme,
-.comida,
-.bebidas{
-    position: relative;
-    display: flex;
-    height: 450px;
-    width: 250px;
-    justify-content: space-between;
-    padding: 0;
-    margin: 15px;
-    background-color: #888;
-    border:solid 0px #111;
-    box-shadow:  10px 10px 10px black;
-    border-radius: 10px;
-}
-button{
-    height: 70px;
-    width: 250px;
-    padding:0;
-    margin: 20px;
-    background-color: #a40b02;
-    border-radius: 10px;
-    font-size: 35px;
-    -webkit-text-stroke: 3px;
-    text-shadow: 5px 5px 5px #000;
-    color: #eee;
-    box-shadow:  10px 10px 10px black;
-    border-radius: 10px;
-}
-footer{
-    margin: 0;
-    margin-top: 0;
-    height: 25%;
+    height: 15%;
     width: 100%;
-    padding: 0;
-    color: #eee;
     display: flex;
-    justify-content: center;
-    letter-spacing: 7px;
-}
-.conteudo p{
-    display: flex;
-    width: 100%;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 5px 15px 0.1px;
+    background-color: #072227;
+    font-size: xx-large;
+    z-index: 2;
+    
+}
+.content{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #4FBDBA;
+    box-shadow: 0px 0px 15px 0px;
+    z-index: 1;  
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    height: 80%;
+    width: 25%;
+    display: flex;
     flex-direction: column;
-    color: #eee;
-    margin: 0px 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #072227;
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px 0.1px;
+}
+.movie,
+.food,
+.drink{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4FBDBA;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0.1px;
+    font-size: x-large;
+
+}
+h1{
+    margin: 10px;
+}
+button {
+    height: 10%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #072227;
+    color:#4FBDBA;
+    transition: 300ms;
+    font-family: anton;
+    font-size: xx-large;
+    box-shadow: 0px 5px 15px 0.1px;
+}
+button:hover{
+    height: 10%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #4FBDBA;
+    color:#072227;
+    border: solid #4FBDBA;
+    box-shadow: 0px 0px 15px 0.1px;
+}
+button:focus{
+    width: 78%;
+    transition: 200ms;
+    box-shadow: 0px 0px 15px 0.1px;
+}
+footer{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 0;
+    box-shadow: 0px 0px 10px 0.1px;
+    background-color: #072227;
 }
