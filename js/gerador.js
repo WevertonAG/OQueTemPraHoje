@@ -49,15 +49,17 @@ const comidas = [
     "Sanduiche",
     "Brigadeiro",
     "Sushi",
-    "Torta"
+    "Torta de Frango",
+    "strognoff",
+    "Torta de Oreo"
+    
 ]
 const bebidas = [
     "Agua com Gás",
     "Suco",
     "Limonada",
     "Vinho",
-    "Refrigerante",
-
+    "Refrigerante"
 ]
 
 
