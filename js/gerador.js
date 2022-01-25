@@ -1,4 +1,4 @@
-const filmes = [
+const movie = [
     "Harry Potter e a Pedra Filosofal",
     "Harry Potter e a Câmara Secreta",
     "Harry Potter e o Prisioneiro de Azkaban",
@@ -40,26 +40,23 @@ const filmes = [
     "Jogos Vorazes A esperança Parte 1",
     "Jogos Vorazes A esperança Final",
     "Como eu era antes de você",
-    "A culpa é das Estrelas",
-    "Caminhos da Memória"
+    "A culpa é das Estrelas"
 ]
-const comidas = [
+const food = [
     "Pizza",
     "Lasanha",
     "Sanduiche",
     "Brigadeiro",
     "Sushi",
-    "Torta de Frango",
-    "strognoff",
-    "Torta de Oreo"
-    
+    "Torta"
 ]
-const bebidas = [
+const drinks = [
     "Agua com Gás",
     "Suco",
     "Limonada",
     "Vinho",
-    "Refrigerante"
+    "Refrigerante",
+
 ]
 
 
@@ -70,19 +67,19 @@ function getRandomIntInclusive(min, max) {
 }
 
 function gerarFilme(id){
-    const filme = filmes[getRandomIntInclusive(0,filmes.length-1)]
-    const movie = document.getElementById('movie')
-    movie.innerHTML= filme
+    const filme = movie[getRandomIntInclusive(0,movie.length-1)]
+    const generate = document.getElementById('movie')
+    generate.innerHTML= filme
 }
 
 function gerarComida(id){
-    const comida = comidas[getRandomIntInclusive(0,comidas.length-1)]
-    const food = document.getElementById('food')
-    food.innerHTML= comida
+    const comida = food[getRandomIntInclusive(0,food.length-1)]
+    const generate = document.getElementById('food')
+    generate.innerHTML= comida
 }
 
 function gerarBebida(id){
-    const bebida = bebidas[getRandomIntInclusive(0,bebidas.length-1)]
-    const drink = document.getElementById('drink')
-    drink.innerHTML= bebida
+    const bebida = drinks[getRandomIntInclusive(0,drinks.length-1)]
+    const generate = document.getElementById('drink')
+    generate.innerHTML= bebida
 }
