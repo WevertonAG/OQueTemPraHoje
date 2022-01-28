@@ -41,7 +41,8 @@ const movie = [
     "Jogos Vorazes A esperança Final",
     "Como eu era antes de você",
     "A culpa é das Estrelas",
-    "Homem ao mar"
+    "Homem ao mar",
+    "1917"
 ]
 const food = [
     "Pizza",
