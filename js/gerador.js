@@ -42,7 +42,16 @@ const movie = [
     "Como eu era antes de você",
     "A culpa é das Estrelas",
     "Homem ao mar",
-    "1917"
+    "1917",
+    "Velozes e furiosos 1",
+    "Velozes e furiosos 2",
+    "Velozes e furiosos 3",
+    "Velozes e furiosos 4",
+    "Velozes e furiosos 5",
+    "Velozes e furiosos 6",
+    "Velozes e furiosos 7",
+    "Velozes e furiosos 8",
+    "Estrelas além do tempo"
 ]
 const food = [
     "Pizza",
