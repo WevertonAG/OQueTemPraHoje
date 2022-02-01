@@ -5,4 +5,4 @@ Criei também funções para que eu traga o resultado na tela mudando o valor in
 
 sendo assim, quando clico no botão o valor é gerado randomicamente e o numero gerado é a posição do array que será mostrado na tela para o usuário
 
-<img src="./assets/oqtph.jpeg">
+<img src="./assets/oqtph.jpeg"></img>
