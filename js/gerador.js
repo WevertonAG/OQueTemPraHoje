@@ -51,7 +51,8 @@ const movie = [
     "Velozes e furiosos 6",
     "Velozes e furiosos 7",
     "Velozes e furiosos 8",
-    "Estrelas além do tempo"
+    "Estrelas além do tempo",
+    "Conde de Monte Cristo"
 ]
 const food = [
     "Pizza",
