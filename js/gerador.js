@@ -53,7 +53,9 @@ const movie = [
     "Velozes e furiosos 8",
     "Estrelas além do tempo",
     "Conde de Monte Cristo",
-    "Gente Grande"
+    "Gente Grande",
+    "Gente Grande 2"
+    "Guerra Civil",
 ]
 const food = [
     "Pizza",
