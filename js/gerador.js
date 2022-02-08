@@ -55,7 +55,8 @@ const movie = [
     "Conde de Monte Cristo",
     "Gente Grande",
     "Gente Grande 2",
-    "Guerra Civil"
+    "Guerra Civil",
+    "Piratas do Caribe"
 ]
 const food = [
     "Pizza",
