@@ -56,11 +56,11 @@ const movie = [
     "Gente Grande",
     "Gente Grande 2",
     "Guerra Civil",
-    "Piratas do Caribe 1",
+    "Piratas do Caribe A maldição do Perola Negra",
     "Piratas do Caribe 2",
     "Piratas do Caribe 3",
     "Piratas do Caribe 4",
-    "Piratas do Caribe 5",
+    "Piratas do Caribe 5"
 ]
 const food = [
     "Pizza",
