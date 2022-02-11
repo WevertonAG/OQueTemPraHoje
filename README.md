@@ -5,6 +5,6 @@ Criei também funções para que eu traga o resultado na tela mudando o valor in
 
 sendo assim, quando clico no botão o valor é gerado randomicamente e o numero gerado é a posição do array que será mostrado na tela para o usuário.
 
-para acessar e fazer o teste basta seguir o link <a>https://oque-tem-pra-hoje.vercel.app/</a>
+para acessar e fazer o teste basta seguir o link <a href="https://oque-tem-pra-hoje.vercel.app/">flappy bug</a>
 
 <img src="./assets/oqtph.jpeg">
